@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <nav class="flex-container">
+        <h1>Solar Monitoring System</h1>
+    </nav>
+    <main>
+        <form action="/gear1" method="get">
+            <button class="device" type="submit">
+                <h2>Panel 1</h2>
+                <div class="flex-container">
+                    <img src="/img/solar-panel.png" alt="solar panel">
+                    <iframe class="stat" src="http://localhost:3000/d-solo/Roaq9ayMk/seniorproj?orgId=1&refresh=5s&panelId=3" frameborder="0"></iframe>        
+                </div>
+            </button>    
+        </form>
+    </main>
+</body>
+</html>
