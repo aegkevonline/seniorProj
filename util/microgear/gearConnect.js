@@ -17,7 +17,7 @@ exports.gearConnect = () => {
         microgear.subscribe("/gear1/curr");
         microgear.subscribe("/gear1/volt");
         microgear.subscribe("/gear1/temp");
-        microgear.subscribe("/gear1/rad");
+        microgear.subscribe("/gear1/lumi");
     });
     
     microgear.on('message', function(topic,body) {
