@@ -1,0 +1,21 @@
+#panel-name {
+    margin: 0.5%;
+    font-size: 1.25rem;
+}
+.col {
+    width: 80vh;
+}
+iframe.graph {
+    height: 35vh;
+    pointer-events: none;
+    padding: 2.5%;
+    background-color: #141619;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+div.card:hover {
+    color: black;
+    filter: brightness(90%);
+}

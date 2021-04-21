@@ -4,10 +4,10 @@ const userController = require('../controllers/user');
 
 const router = express.Router();
 
-router.get('/', userController.reMainPage);
+router.get('/', userController.reHomePage);
 
-router.get('/main', userController.getMainPage);
+router.get('/home', userController.getHomePage);
 
-router.get('/gear1', userController.getGear1);
+router.get('/panel1', userController.getPanel1);
 
 module.exports = router;

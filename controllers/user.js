@@ -1,11 +1,11 @@
-exports.reMainPage = (req, res, next) => {
-    res.redirect('/main');
+exports.reHomePage = (req, res, next) => {
+    res.redirect('/home');
 };
 
-exports.getMainPage = (req, res, next) => {
-    res.render('user/main', { pageTitle: 'Main Page', path: '/main' });
+exports.getHomePage = (req, res, next) => {
+    res.render('user/home', { pageTitle: 'Home Page', path: '/home' });
 };
 
-exports.getGear1 = (req, res, next) => {
-    res.render('user/gear1', { pageTitle: 'Gear 1', path: '/gear1' });
+exports.getPanel1 = (req, res, next) => {
+    res.render('user/panel1', { pageTitle: 'Panel 1', path: '/panel1' });
 };
