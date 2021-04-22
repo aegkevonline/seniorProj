@@ -22,7 +22,7 @@ exports.gearConnect = () => {
     
     microgear.on('message', function(topic,body) {
         console.log('incoming : '+topic+' : '+body);
-        writeData(topic, body);
+        // writeData(topic, body);
     });
 
     microgear.setCachePath('util/microgear/caches/microgear-g1.cache');
